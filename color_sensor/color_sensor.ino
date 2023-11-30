@@ -46,7 +46,7 @@ void loop() {
   //get the data and print the different channels
   apds.getColorData(&r, &g, &b, &c);
  if (r==0 && g==0 && b==0 && c==0){//change rgbc numbers to tape number code
-    myservo.writeMicroseconds(1000);//change value to make motor turn
+    myservo.writeMicroseconds(2000);//change value to make motor turn
 
  }
   
